@@ -1,1 +1,1 @@
-web: gunicorn runb:appweb12ago
+web: gunicorn run:appweb12ago
