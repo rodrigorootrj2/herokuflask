@@ -1,0 +1,2 @@
+# herokuflask
+bind heroku app
