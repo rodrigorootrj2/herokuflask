@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT run:foobarbaz2022
+web: gunicorn --bind 0.0.0.0:$PORT run:appweb12ago
