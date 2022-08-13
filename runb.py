@@ -8,5 +8,5 @@ def hello_world():
     return 'Hello World!'
 
 
-if 'run' == '__main__':
+if 'runb' == '__main__':
     app.run(debug=True)
