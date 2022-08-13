@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:$PORT --chdir . run:appweb12ago
+web: gunicorn --chdir . run:appweb12ago
