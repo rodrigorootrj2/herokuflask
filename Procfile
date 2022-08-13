@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:80 run:appweb12ago
+web: gunicorn --bind 0.0.0.0:443 run:appweb12ago
