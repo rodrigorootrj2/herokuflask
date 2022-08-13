@@ -1,1 +1,1 @@
-web: gunicorn --chdir . run:appweb12ago
+web: gunicorn --chdir herokuflask run:appweb12ago
