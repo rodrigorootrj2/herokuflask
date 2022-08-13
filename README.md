@@ -2,7 +2,7 @@
 APP name: appweb12ago
 
 heroku git:remote -a appweb12ago
-git commit -am 'is "'$(date)'"' && git push && heroku restart
+git commit -am 'is0 ' && git push && heroku restart
 heroku logs --tail
 heroku login
 bind heroku app
