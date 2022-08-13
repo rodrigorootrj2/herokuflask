@@ -2,7 +2,7 @@
 APP name: appweb12ago
 
 heroku git:remote -a appweb12ago
-git commit -am 'is0' && git push heroku master && heroku restart && heroku logs --tail
+git commit -am 'is0' && git push && heroku restart && heroku logs --tail
 heroku login
 bind heroku app
 https://appweb12ago.herokuapp.com/
