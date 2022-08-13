@@ -1,1 +1,1 @@
-web: gunicorn --chdir app run:appweb12ago
+web: gunicorn run:appweb12ago
