@@ -1,4 +1,6 @@
 # herokuflask man page:
+APP name: appweb12ago
+
 heroku git:remote -a appweb12ago
 git commit -am 'is0' && git push heroku master && heroku restart && heroku logs --tail
 heroku login
@@ -8,3 +10,16 @@ heroku buildpacks:set heroku/python
 git push heroku master
 
 heroku open
+Flask:
+<pre>
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello, World!"
+
+if __name__ == "__main__":
+    app.run(debug=True)
+</pre>
