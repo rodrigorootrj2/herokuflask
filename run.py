@@ -7,4 +7,4 @@ def home():
     return "Hello, World!"
 
 if 'run' == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, PORT=443)
